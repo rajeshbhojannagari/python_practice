@@ -67,3 +67,24 @@
 #         print(i, end=" ")
 #     i=i+1
 #     print()
+
+# list1=[1,2,3,4,5]
+# list1.append(6)
+# list1.insert(3,7)
+# list1.pop()
+# print(list1)
+
+# name="121"
+# name1=name[::-1]
+# if(name==name1):
+#     print("Palindrome")
+# else:
+#     print("no")
+
+# number=int(input("Enter a number: "))
+# for i in range(2,number+1):
+#     for j in range(2,i):
+#         if i%j==0:
+#             break
+#     else:
+#         print(i," ")

@@ -13,14 +13,14 @@
 # else:
 #     print("Denomination not available")
 
-time1=int(input("Enter a hour in 24 hrs format: "))
-while True:
-    if (time1>=0 and time1<12):
-        print("AM")
-        break
-    elif(time1>=12 and time1<24):
-        print("PM")
-        break
-    else:
-        time1=int(input("Enter a hour in 24 hrs format: "))  
+# time1=int(input("Enter a hour in 24 hrs format: "))
+# while True:
+#     if (time1>=0 and time1<12):
+#         print("AM")
+#         break
+#     elif(time1>=12 and time1<24):
+#         print("PM")
+#         break
+#     else:
+#         time1=int(input("Enter a hour in 24 hrs format: "))  
         

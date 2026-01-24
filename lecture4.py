@@ -108,8 +108,22 @@
 # a=[1,2,3,4,5,6,7,8,9,10]
 # sum(a)
 
-def fun(first_name,last_name,country="India"):
-    print("Hey Buddy")
-    print(f"My name is {first_name} {last_name}")
-    print(f"I live in {country}")
-fun("Rajesh","Bhojannagari","UK")
+# def fun(first_name,last_name,country="India"):
+#     print("Hey Buddy")
+#     print(f"My name is {first_name} {last_name}")
+#     print(f"I live in {country}")
+# fun("Rajesh","Bhojannagari","UK")
+
+# import random
+# a=int(input("Enter Number a: "))
+# b=int(input("Enter Number b: "))
+# number=random.randint(a,b)
+# print(number)
+# guessNumber=int(input("Guess number: "))
+# while True:
+#     if(guessNumber==number):
+#         print("You Guessed It right")
+#         break
+#     else:
+#         guessNumber=int(input("Guess number: "))
+

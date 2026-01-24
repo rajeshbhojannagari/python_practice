@@ -59,12 +59,57 @@
 
 
 
-import copy
-student={
-    'name':'Rajesh',
-    'marks':[87,80,78]
-}
-another_Student1=copy.deepcopy(student)
-student['marks'].append(99)
-print(student)
-print(another_Student1)
+# import copy
+# student={
+#     'name':'Rajesh',
+#     'marks':[87,80,78]
+# }
+# another_Student1=copy.deepcopy(student)
+# student['marks'].append(99)
+# print(student)
+# print(another_Student1)
+
+# def function():
+#     print("Hello World")
+#     return "Retured output"
+# function()
+# function()
+#print(function())
+
+# def fun(first_name,last_name,country):
+#     print("Hey Buddy")
+#     print(f"My name is {first_name} {last_name}")
+#     print(f"I live in {country}")
+# fun("Rajesh","Bhojannagari","India")
+
+# def sum(a,b):
+#     Sum=a+b
+#     print(Sum)
+# sum(5,6)
+
+# def cal(a,b):
+#     sum=a+b
+#     print("Sum= ",sum)
+#     print("a**2= ",a**2)
+#     print("b**2= ",b**2)
+#     print("Square of sum= ",sum**2)
+# cal(a=int(input("Enter a: ")),b=int(input("Enter b: ")))
+
+# def div(a,b):
+#     divide=a/b
+#     print(f"{divide:.2f}")
+# div(5,6)
+
+# def sum(a):
+#     sum=0
+#     for i in a:
+#         sum=sum+i
+#     print(sum)
+# a=[1,2,3,4,5,6,7,8,9,10]
+# sum(a)
+
+def fun(first_name,last_name,country="India"):
+    print("Hey Buddy")
+    print(f"My name is {first_name} {last_name}")
+    print(f"I live in {country}")
+fun("Rajesh","Bhojannagari","UK")

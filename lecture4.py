@@ -35,14 +35,36 @@
 #     print(i,Details[i])
 # print(len(Details))
 
-data={
-    'id':101,
-    'info':{
-        'name':'Alice',
-        'age':20
-    }
+# data={
+#     'id':101,
+#     'info':{
+#         'name':'Alice',
+#         'age':20
+#     }
+# }
+# print(data['info']['name'])
+# print(len(data))
+# print(data.items())
+
+# data={'a':1,'b':2,'c':3}
+# for i in list(data.keys()):
+#     if(data[i]%2==0):
+#         del data[i]
+# print(data)
+
+# a={'a':1,'b':9}
+# b={'b':2,'a':8}
+# t=a|b
+# print(t)
+
+
+
+import copy
+student={
+    'name':'Rajesh',
+    'marks':[87,80,78]
 }
-# for i in data:
-print(data['info']['name'])
-print(len(data))
-print(data.items())
+another_Student1=copy.deepcopy(student)
+student['marks'].append(99)
+print(student)
+print(another_Student1)

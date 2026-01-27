@@ -127,3 +127,25 @@
 #     else:
 #         guessNumber=int(input("Guess number: "))
 #print("Hello")
+
+# x = [1, 2, 3]
+# y = x
+# y.append(4)
+# print(x)
+# print(2 ** 3 ** 2)
+# print(sorted("banana"))
+
+# x = (1, 2, [3, 4])
+# x[2].append(5)
+# print(x)
+# print(True == False in [False])
+
+# print(type({}))
+
+
+
+# x = 5
+# def func():
+#     x = 10
+# func()
+# print(x)

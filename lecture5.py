@@ -25,3 +25,27 @@
 # state=Bank("ICICI","Hyderabad",500)
 # state.bankDet()
 
+class Calculator:
+    def __init__(self,num1,num2):
+        self.num1=num1
+        self.num2=num2
+    def Sum(self):
+        sum=self.num1+self.num2
+        print("Sum is ",sum)
+    def Sub(self):
+        sub=self.num1-self.num2
+        print("Sub is ",sub)
+    def Mul(self):
+        mul=self.num1*self.num2
+        print("Mul is ",mul)
+    def Div(self):
+        div=self.num1/self.num2
+        print(f"Div is {div:.2f}")
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+calc=Calculator(a,b)
+calc.Sum()
+calc.Sub()
+calc.Mul()
+calc.Div()
+

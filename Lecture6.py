@@ -70,7 +70,7 @@
 #         self.withdraw=withdraw
 #         self.deposit=deposit
 #     def details(self):
-#         print(f"deposit amount is {self.deposit} and balance is {self.deposit+self.Balance}")
+#         print(f"deposit amount is {self.deposit} and balance is {self.Balance + self.deposit}")
 #     def withd(self):
 #         print(f"withdraw amount is {self.withdraw} and balance is {self.Balance-self.withdraw}")
 
@@ -85,7 +85,7 @@
 #         self.withdraw=withdraw
 #         self.deposit=deposit
 #     def depo(self):
-#         self.Balance=self.__Balance+self.deposit
+#         self.__Balance=self.__Balance+self.deposit
 #         print(f"Balance is {self.__Balance}")
 #     def withd(self):
 #         if(self.withdraw>self.__Balance):
@@ -93,7 +93,7 @@
 #         else:
 #             self.__Balance=self.__Balance-self.withdraw
 #             print(f"Balance is {self.__Balance}")
-# per1=Bank(20000,120000,1000)
+# per1=Bank(10000,1200,2000)
 # per1.depo()
 # per1.withd()
 
@@ -113,3 +113,35 @@
 # per1=Bank(20000)
 # per1.Deposit(5000)
 # per1.Withdraw(2000)
+
+# class Student:
+#     def __init__(self,name,grade,percentage):
+#         self.name=name
+#         self.grade=grade
+#         self.percentage=percentage
+#     def stu_det(self):
+#         print(f"{self.name} is in class {self.grade} with percentage {self.percentage}%")
+# #student1=Student("Rajesh",12,94)
+# class GraduateStudent(Student):
+#     def __init__(self, name, grade, percentage,stream):
+#         super().__init__(name, grade, percentage)
+#         self.stream=stream
+#     def upt_det(self):
+#         print(f"{self.name} is in class {self.grade} with percentage {self.percentage}% and stream is {self.stream}")
+# Grad_student1=GraduateStudent("Rajesh",12,94,"CSE")
+# Grad_student1.upt_det()
+
+# class details:
+#     def __init__(self,studentname,regno,year):
+#         self.studentname=studentname
+#         self.regno=regno
+#         self.year=year
+# class mentor(details):
+#     def __init__(self,studentname,regno,year,mentorname):
+#         super().__init__(studentname,regno,year)
+#         self.mentorname=mentorname
+#     def printdet(self):
+#         print(f"Student name is {self.studentname} and mentor name is {self.mentorname}")
+# std1=mentor("rajesh",12313848,3,"Manpreet senghal")
+# std1.printdet()
+

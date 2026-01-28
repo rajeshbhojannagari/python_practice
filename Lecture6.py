@@ -33,3 +33,15 @@
 # print(y(a,b))
 
 
+# list1=[1,2,3,4,5,6,7,8]
+# res=[]
+# for i in list1:
+#     res.append(i*i)
+# print(res)
+# z=list(map(lambda x: x**2,list1))
+# print(z)
+
+# from functools import reduce
+# a=reduce(lambda x,y:x+y,list1)
+# print()
+# print(a)

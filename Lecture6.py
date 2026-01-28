@@ -145,3 +145,19 @@
 # std1=mentor("rajesh",12313848,3,"Manpreet senghal")
 # std1.printdet()
 
+# class Employee:
+#     def details(self):
+#         return ("No details available")
+# class Payment1(Employee):
+#     def details(self):
+#         return "Payment amount is 5000"
+# class Payment2(Employee):
+#     def details(self):
+#         return "Payment amount is 8000"
+# def payment(Employee):
+#     print(Employee.details())
+
+# pay1= Payment1()
+# pay2=Payment2()
+# payment(pay1)
+# payment(pay2) 

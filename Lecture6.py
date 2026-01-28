@@ -45,3 +45,71 @@
 # a=reduce(lambda x,y:x+y,list1)
 # print()
 # print(a)
+
+
+
+# class Student:
+#     def __init__(self,name,grade,percentage):
+#         self.name=name
+#         self.grade=grade
+#         self.percentage=percentage
+#     def student_details(self):
+#         print(f"{self.name} is in class {self.grade} with {self.percentage}%")
+#     def get_percent(self):
+#         return self.percentage
+# student1=Student("Rajesh",10,94)
+# student2=Student('Vikram',10,92)
+# student1.student_details()
+# student2.student_details()
+# print(student1.get_percent())
+# print(student2.get_percent())
+
+# class Bank:
+#     def __init__(self,Balance,withdraw,deposit):
+#         self.Balance=Balance
+#         self.withdraw=withdraw
+#         self.deposit=deposit
+#     def details(self):
+#         print(f"deposit amount is {self.deposit} and balance is {self.deposit+self.Balance}")
+#     def withd(self):
+#         print(f"withdraw amount is {self.withdraw} and balance is {self.Balance-self.withdraw}")
+
+# per1=Bank(20000,1200,1000)
+# per1.details()
+# per1.withd()
+
+
+# class Bank:
+#     def __init__(self,Balance,withdraw,deposit):
+#         self.__Balance=Balance
+#         self.withdraw=withdraw
+#         self.deposit=deposit
+#     def depo(self):
+#         self.Balance=self.__Balance+self.deposit
+#         print(f"Balance is {self.__Balance}")
+#     def withd(self):
+#         if(self.withdraw>self.__Balance):
+#             print("Insufficeint balance")
+#         else:
+#             self.__Balance=self.__Balance-self.withdraw
+#             print(f"Balance is {self.__Balance}")
+# per1=Bank(20000,120000,1000)
+# per1.depo()
+# per1.withd()
+
+
+# class Bank:
+#     def __init__(self,Balance):
+#         self.__Balance=Balance
+#     def Deposit(self,deposit):
+#         self.__Balance+=deposit
+#         print(f"Balance is {self.__Balance}")
+#     def Withdraw(self,withdraw):
+#         if(withdraw>self.__Balance):
+#             print("Insufficeint Balance")
+#         else:
+#             self.__Balance-=withdraw
+#             print(f"Balance is : {self.__Balance}")
+# per1=Bank(20000)
+# per1.Deposit(5000)
+# per1.Withdraw(2000)

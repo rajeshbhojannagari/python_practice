@@ -161,3 +161,18 @@
 # pay2=Payment2()
 # payment(pay1)
 # payment(pay2) 
+
+# try:
+#     a=int(input("Enter a number: "))
+#     b=int(input("Enter another number: "))
+#     result=a/b
+#     print(result)
+# except ZeroDivisionError as zd:
+#     print("Cant be divided by zero",zd)
+# except ValueError as vl:
+#     print("Value error",vl)
+# except Exception as e:
+#     print("Unknown error",e)
+# finally:
+#     print("Resourses Closed")
+# print("End of program")

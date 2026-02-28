@@ -11,5 +11,7 @@
 # print(age)
 # print(age1)
 
-a=None
-print(a)
+# a=None
+# print(a)
+print(not False and False or True)
+print(input("Enter a name: "))

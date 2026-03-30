@@ -6,3 +6,6 @@
 --The STATION table is described as follows:
 -- (SELECT CITY,LENGTH(CITY) as city_length FROM STATION ORDER BY
 --LENGTH(CITY),CITY limit 1) UNION (SELECT CITY,LENGTH(CITY) FROM STATION ORDER BY LENGTH(CITY)DESC,CITY limit 1);
+
+--code 3: Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+--SELECT DISTINCT CITY FROM STATION WHERE CITY like 'a%'or CITY like'e%' or CITY like 'i%' or CITY like 'o%' or CITY like 'u%';

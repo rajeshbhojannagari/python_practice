@@ -1,2 +1,3 @@
--- code 1
+-- code 1: Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
+--The STATION table is described as follows:
 --SELECT count(CITY)- count(distinct CITY) FROM STATION;

@@ -20,6 +20,13 @@
 
 
 
+
+
+
+
+
+
+
 --code 6: Query the list of CITY names from STATION that do not start with vowels. Your result cannot contain duplicates.
 --SELECT DISTINCT CITY FROM STATION WHERE CITY not like 'a%' and CITY not like 'e%' AND CITY not like 'i%' and CITY not like 'o%' and CITY not like 'u%';
 

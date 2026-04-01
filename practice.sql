@@ -24,3 +24,6 @@
 
 --code 8: Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.
 --SELECT DISTINCT CITY from STATION WHERE CITY NOT  REGEXP '^[AEIOU].*[AEIOU]$';
+
+--code 9: Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
+--SELECT DISTINCT CITY FROM STATION WHERE CITY not REGEXP '^[AEIOU].' AND CITY not REGEXP '[AEIOU]$';

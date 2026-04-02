@@ -3,3 +3,12 @@
 -- BEGIN
 -- DBMS_OUTPUT.PUT_LINE("Hello World");
 -- END
+--store value:
+-- declare
+-- <declaration section>
+-- begin
+-- <executable exception>
+--exception
+-- <handle exception>
+--end;
+--/

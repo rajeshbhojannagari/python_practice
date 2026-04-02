@@ -12,3 +12,14 @@
 -- <handle exception>
 --end;
 --/
+--sample code:
+-- declare
+-- name varchar(12);
+-- age int;
+-- begin
+-- name :='Rajesh';
+-- age := 20;
+-- dbms_output.put_line('my name is '||name);
+-- dbms_output.put_line('my age is'||age);
+-- end;
+-- /

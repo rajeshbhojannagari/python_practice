@@ -1,0 +1,5 @@
+--pl/sql is procedural language extension of sql
+--syntax:
+--BEGIN
+--DBMS_OUTPUT.PUT_LINE("Hello World");
+--END

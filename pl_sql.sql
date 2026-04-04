@@ -24,20 +24,20 @@
 -- end;
 -- /
 
--- another example
--- declare
--- num number := 249;
--- begin
--- if mod(num,2)=0 then 
--- dbms_output.put_line('Even');
--- else 
--- dbms_output.put_line('odd');
--- end if;
--- end;
--- /
--- crud operation
--- begin
--- execute immediate 'create table emp(eid number,name varchar2(20))';
--- dbms_output.put_line('Table created succesfully');
--- end;
--- /
+another example
+declare
+num number := 249;
+begin
+if mod(num,2)=0 then 
+dbms_output.put_line('Even');
+else 
+dbms_output.put_line('odd');
+end if;
+end;
+/
+crud operation
+begin
+execute immediate 'create table emp(eid number,name varchar2(20))';
+dbms_output.put_line('Table created succesfully');
+end;
+/

@@ -35,9 +35,9 @@
 -- end if;
 -- end;
 -- /
-crud operation
-begin
-execute immediate 'create table emp(eid number,name varchar2(20))';
-dbms_output.put_line('Table created succesfully');
-end;
-/
+-- crud operation
+-- begin
+-- execute immediate 'create table emp(eid number,name varchar2(20))';
+-- dbms_output.put_line('Table created succesfully');
+-- end;
+-- /

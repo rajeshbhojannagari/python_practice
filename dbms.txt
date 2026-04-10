@@ -1,3 +1,45 @@
 1. Introduction to DBMS
 
-A Database Management System (DBMS) is software used to create, manage, store, retrieve, and manipulate data in databases.
+A Database Management System (DBMS) is software used to create, manage, store, retrieve, and manipulate data in databases.A database is an organized collection of related data.
+
+Example:
+
+Student details in a college
+
+Employee records in a company
+
+Customer orders in an online shopping website
+
+Without DBMS:
+
+Data is stored in files
+
+Difficult to search data
+
+Data redundancy increases
+
+Security is poor
+
+Updating data becomes difficult
+
+With DBMS:
+
+Easy storage and retrieval
+
+Better security
+
+Less redundancy
+
+Data consistency
+
+Multiple users can access data together
+
+Examples of DBMS:
+
+MySQL
+
+Oracle
+
+PostgreSQL
+
+SQL Server

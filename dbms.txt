@@ -43,3 +43,13 @@ Oracle
 PostgreSQL
 
 SQL Server
+
+2. Characteristics of DBMS
+Data is stored in a structured format
+Reduces data redundancy
+Supports data sharing
+Provides backup and recovery
+Provides security
+Supports concurrent access
+Maintains data integrity
+Provides data independence

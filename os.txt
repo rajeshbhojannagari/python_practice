@@ -48,3 +48,8 @@ computer operator who then batched the similar jobs together to speed up process
 The programmers left their programs with the operator and the operator then sorted the programs with 
 similar requirements into batches. 
 In such systems, CPU usage was very low and it was difficult to prioritize jobs over one another.
+
+Multiprogramming Systems − These operating systems emerged from 1950s to 1960s and revolutionalized the 
+computer arena. Now a user could load multile programs into memory and each program 
+could have specific memory allocated. While one program was waiting for I/O operation, 
+CPU was alloted to second program.

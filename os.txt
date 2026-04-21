@@ -59,3 +59,8 @@ Time-sharing or multitasking is a logical extension of multiprogramming. Process
 shared among multiple users simultaneously is termed as time-sharing. The operating system used CPU scheduling 
 and multiprogramming to provide each user with a small portion of a time. 
 Computer systems that were designed primarily as batch systems have been modified to time-sharing systems.
+
+GUI Based Systems − From 1970s to 1980s, GUI based Operating Systems became popular. 
+These operating systems were more user friendly. In stead of typing commands, a user could click on graphical icons. 
+Microsoft Windows is one of earlier popular GUI based operating system which still dominates the personal 
+computer space

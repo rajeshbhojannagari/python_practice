@@ -40,3 +40,11 @@ File Management
 A file system is normally organized into directories for easy navigation and usage.
  These directories may contain files and other directions.
 An Operating System does the following activities for file management
+
+Batch Processing Systems − These systems were popular From 1940s to 1950s. 
+The users of a batch operating system did not interact with the computer directly. 
+Each user prepared his job on an off-line device like punch cards and submited it to the 
+computer operator who then batched the similar jobs together to speed up processing and run as a group. 
+The programmers left their programs with the operator and the operator then sorted the programs with 
+similar requirements into batches. 
+In such systems, CPU usage was very low and it was difficult to prioritize jobs over one another.

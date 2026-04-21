@@ -33,3 +33,6 @@ Processor Management
 In multiprogramming environment, the OS decides which process gets the processor when and for how much time. 
 This function is called process scheduling. 
 An Operating System does the following activities for processor management
+Device Management
+An Operating System manages device communication via their respective drivers. 
+It does the following activities for device management

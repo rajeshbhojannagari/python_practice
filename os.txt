@@ -22,3 +22,6 @@ Control over system performance
 Job accounting
 Error detecting aids
 Coordination between other software and users
+Memory Management
+Memory management refers to management of Primary Memory or Main Memory.
+ Main memory is a large array of words or bytes where each word or byte has its own address.

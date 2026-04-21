@@ -53,3 +53,9 @@ Multiprogramming Systems − These operating systems emerged from 1950s to 1960s
 computer arena. Now a user could load multile programs into memory and each program 
 could have specific memory allocated. While one program was waiting for I/O operation, 
 CPU was alloted to second program.
+
+Time-Sharing Systems − Such Operating system can be categorized from 1960s to 1970s yearwise. 
+Time-sharing or multitasking is a logical extension of multiprogramming. Processor's time which is 
+shared among multiple users simultaneously is termed as time-sharing. The operating system used CPU scheduling 
+and multiprogramming to provide each user with a small portion of a time. 
+Computer systems that were designed primarily as batch systems have been modified to time-sharing systems.

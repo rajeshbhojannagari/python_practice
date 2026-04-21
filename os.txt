@@ -25,3 +25,6 @@ Coordination between other software and users
 Memory Management
 Memory management refers to management of Primary Memory or Main Memory.
  Main memory is a large array of words or bytes where each word or byte has its own address.
+ Main memory provides a fast storage that can be accessed directly by the CPU. 
+For a program to be executed, it must in the main memory.
+An Operating System does the following activities for memory management

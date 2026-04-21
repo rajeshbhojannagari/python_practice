@@ -36,3 +36,7 @@ An Operating System does the following activities for processor management
 Device Management
 An Operating System manages device communication via their respective drivers. 
 It does the following activities for device management
+File Management
+A file system is normally organized into directories for easy navigation and usage.
+ These directories may contain files and other directions.
+An Operating System does the following activities for file management

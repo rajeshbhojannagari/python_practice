@@ -28,3 +28,8 @@ Memory management refers to management of Primary Memory or Main Memory.
  Main memory provides a fast storage that can be accessed directly by the CPU. 
 For a program to be executed, it must in the main memory.
 An Operating System does the following activities for memory management
+
+Processor Management
+In multiprogramming environment, the OS decides which process gets the processor when and for how much time. 
+This function is called process scheduling. 
+An Operating System does the following activities for processor management

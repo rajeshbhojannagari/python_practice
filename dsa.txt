@@ -1,0 +1,3 @@
+Data structures and algorithms (DSA) are two important aspects of any programming language. 
+Every programming language has its own data structures and different types of algorithms to handle these 
+data structures.

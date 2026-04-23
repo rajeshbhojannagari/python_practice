@@ -14,3 +14,6 @@ Time and Space complexities are the measures of the amount of time required to e
 Step 2 - Learn Different Data Structures
 Here we learn different types of data structures like Array, Stack, Queye, Linked List et.
 Step 3 - Learn Different Algorithms
+Once you have good undertanding about various data sturtcures then you can start learning 
+associated algorithms to process the data stored in these data structures. These algorithms include 
+searching, sorting, and other different algorithms.

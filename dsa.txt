@@ -11,3 +11,5 @@ How to start learning Data Structures & Algorithms (DSA)?
 Step 1 - Learn Time and Space complexities
 Time and Space complexities are the measures of the amount of time required to execute the code 
 (Time Complexity) and amount of space required to execute the code (Space Complexity).
+Step 2 - Learn Different Data Structures
+Here we learn different types of data structures like Array, Stack, Queye, Linked List et.

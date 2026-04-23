@@ -8,3 +8,6 @@ i.e. an algorithm can be implemented in more than one programming language.
 Almost every enterprise application uses various types of data structures in one or the other way. So, 
 as a programmer, data structures and algorithms are really important aspects of day-to-day programming.
 How to start learning Data Structures & Algorithms (DSA)?
+Step 1 - Learn Time and Space complexities
+Time and Space complexities are the measures of the amount of time required to execute the code 
+(Time Complexity) and amount of space required to execute the code (Space Complexity).
